@@ -8,7 +8,9 @@ Format 2
 xxxx.xxx.xxx to xx:xx:xx:xx:xx:xx  
 
 Format 3
-xx-xx-xx-xx-xx-xx to xxxx.xxx.xxx  
+xx-xx-xx-xx-xx-xx to xxxx.xxxx.xxx  
+
+Format 4 xxxxxxxxxxxx to xxxx.xxxx.xxx
  
 It will also do multi lines for example if you copy several rows in excel. 
  
