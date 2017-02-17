@@ -41,6 +41,16 @@ def convert(mac_address):
             count+=5
         return (''.join(mac_address)).lower()
 
+    elif len(str(mac_address))==12:
+        # Convert MAC from xxxxxxxxxxxx format to xxxx.xxxx.xxxx format
+        mac_address = str(mac_address)
+        count = 3
+        mac_address = list(mac_address)
+        while (count < 13):
+            mac_address.insert(count + 1, ".")
+            count += 5
+        return (''.join(mac_address)).lower()
+
     elif str(mac_address).count("\r\n")>0:
         #Converts multiline clipboards normally from copying several rows in excel for example.
         multi_line=str(mac_address).split("\r\n")
@@ -62,5 +72,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-#GIT TEST
-#test3
