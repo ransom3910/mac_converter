@@ -17,8 +17,8 @@ xxxxxxxxxxxx to xxxx.xxxx.xxx
 
 It will also do multi lines for example if you copy several rows in excel. 
  
-It will flip between formats xx:xx:xx:xx:xx:xx and xxxx.xxx.xxx  depending on which one you send it and will always convert xx-xx-xx format to xxxx.xxx.xxx  
+It will flip between formats `xx:xx:xx:xx:xx:xx` and `xxxx.xxx.xxx`  depending on which one you send it and will always convert `xx-xx-xx` format to `xxxx.xxx.xxx`
 
-Requires pyperclip library 
+*Requires pyperclip library*
 
 
